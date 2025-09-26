@@ -11,7 +11,7 @@ def main():
     label.pack(pady=20)
 
     # Add a button
-    button = tk.Button(root, text="Recipe Helper 3000", command=lambda: label.config(text="Button Clicked!"))
+    button = tk.Button(root, text="Click me!!!", command=lambda: label.config(text="Button Clicked!"))
     button.pack(pady=10)
 
     # Run the application
